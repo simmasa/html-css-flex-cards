@@ -16,4 +16,24 @@ header {
 }
 .flex-cont {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+h1 {
+    margin: 20px 0px 30px;
+    color: #E53170;
+}
+.container > p {
+    text-align: center;
+}
+.card {
+    width: 30%;
+    background-color: black;
+    margin: 10px 0px 10px;
+}
+
+/* common */
+body {
+    font-family: Fredoka , sans-serif;
 }
